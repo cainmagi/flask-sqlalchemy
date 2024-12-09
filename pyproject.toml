@@ -1,6 +1,6 @@
 [project]
-name = "Flask-SQLAlchemy"
-description = "Add SQLAlchemy support to your Flask application."
+name = "Flask-SQLAlchemy-compat-backend-py37"
+description = "Flask SQLAlchemy backend supporting the Python 3.7 version of Flask SQLAlchemy compat."
 readme = "README.rst"
 license = { file = "LICENSE.rst" }
 maintainers = [{name = "Pallets", email = "contact@palletsprojects.com"},]
