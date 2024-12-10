@@ -30,23 +30,17 @@ Changes = "https://flask-sqlalchemy.palletsprojects.com/changes/"
 Chat = "https://discord.gg/pallets"
 
 [build-system]
-requires = ["flit_core<4"]
-build-backend = "flit_core.buildapi"
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
 
-[tool.flit.module]
-name = "flask_sqlalchemy"
+[tool.setuptools]
+packages = ["flask_sqlalchemy", "flask_sqlalchemy_py37"]
+zip-safe = true
+include-package-data = false
 
-[tool.flit.sdist]
-include = [
-    "docs/",
-    "requirements/",
-    "tests/",
-    "CHANGES.rst",
-    "tox.ini",
-]
-exclude = [
-    "docs/_build/",
-]
+[tool.setuptools.package-dir]
+flask_sqlalchemy = "src/flask_sqlalchemy"
+flask_sqlalchemy_py37 = "src/flask_sqlalchemy"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

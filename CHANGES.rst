@@ -1,3 +1,11 @@
+Version 3.1.0dev2
+-----------------
+
+Released to Flask-SQLAlchemy-compat-backend-py37
+
+-   Switch the builder from `flit` to `setuptools`. This change is intended to provide
+    a second name of the compat backend package.
+
 Version 3.1.0
 -------------
 
