@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 from .extension import SQLAlchemy
+from .version import __version__
 
-__version__ = "3.1.0.dev1"
 
 __all__ = [
+    "__version__",
     "SQLAlchemy",
 ]

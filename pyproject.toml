@@ -38,6 +38,9 @@ packages = ["flask_sqlalchemy", "flask_sqlalchemy_py37"]
 zip-safe = true
 include-package-data = false
 
+[tool.setuptools.dynamic]
+version = { attr = "version.__version__" }
+
 [tool.setuptools.package-dir]
 flask_sqlalchemy = "src/flask_sqlalchemy"
 flask_sqlalchemy_py37 = "src/flask_sqlalchemy"
