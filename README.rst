@@ -34,7 +34,9 @@ If you are using ``Python>=3.8``, you do not need this package, because
 .. _See details of this version: https://github.com/pallets-eco/flask-sqlalchemy/issues/1140#issuecomment-1577921154
 
 Flask-SQLAlchemy
-================
+----------------
+
+    | The following part is from the original README file.
 
 Flask-SQLAlchemy is an extension for `Flask`_ that adds support for
 `SQLAlchemy`_ to your application. It aims to simplify using SQLAlchemy
