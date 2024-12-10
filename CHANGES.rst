@@ -1,4 +1,12 @@
-Version 3.1.0dev2
+Version 3.1.0.dev3
+-----------------
+
+Released to Flask-SQLAlchemy-compat-backend-py37 (2024-12-10)
+
+-   Loosen the dependency requriement of `sqlalchemy` from ``>=2.0.16`` to
+    ``>=2.0.0``.
+
+Version 3.1.0.dev2
 -----------------
 
 Released to Flask-SQLAlchemy-compat-backend-py37 (2024-12-10)

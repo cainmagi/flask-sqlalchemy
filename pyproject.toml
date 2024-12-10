@@ -18,7 +18,7 @@ classifiers = [
 requires-python = ">=3.7,<3.8"
 dependencies = [
     "flask>=2.2.5",
-    "sqlalchemy>=2.0.16",
+    "sqlalchemy>=2.0.0",
     "flask-sqlalchemy",
 ]
 dynamic = ["version"]
