@@ -1,3 +1,38 @@
+Flask-SQLAlchemy-compat-backend-py37
+====================================
+
+Flask SQLAlchemy backend supporting the Python 3.7 version of Flask
+SQLAlchemy compat.
+
+This package is forked from an unofficial version of Flask SQLAlchemy. The
+motication of uploading this fork to PyPI includes:
+
+1. Bring the `DeclarativeBase` feature to Python 3.7. The official version is
+up to 3.0.5 which is not compatible with the ``sqlalchemy2`` style.
+
+2. Serve as a backend support of the package `flask-sqlalchemy-compat` when using
+Python 3.7
+
+If you are using ``Pyhon<3.7``, you should not use `flask-sqlalchemy-compat`, the
+only available choice is `flask-sqlalchemy`.
+
+If you are using ``Python>=3.8``, you do not need this package, because
+``flask-sqlalchemy`` is already compatible with ``Python>=3.8``.
+
++---------------------------------+
+| Reference                       |
++=================================+
+| `Flask SQLAlchemy compat`_      |
++---------------------------------+
+| `Forked from Flask SQLAlchemy`_ |
++---------------------------------+
+| `See details of this version`_  |
++---------------------------------+
+
+.. _Flask SQLAlchemy compat: https://github.com/cainmagi/flask-sqlalchemy-compat
+.. _Forked from Flask SQLAlchemy: https://github.com/pamelafox/flask-sqlalchemy/tree/fdeec1d0d98669cc612e1f69d6875f9c1e4c6c45
+.. _See details of this version: https://github.com/pallets-eco/flask-sqlalchemy/issues/1140#issuecomment-1577921154
+
 Flask-SQLAlchemy
 ================
 
