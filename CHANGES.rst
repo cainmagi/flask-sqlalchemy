@@ -7,6 +7,7 @@ Released to Flask-SQLAlchemy-compat-backend-py37
     a second name of the compat backend package.
 -   Split the version from `__init__.py` to `version.py` and add an extra package to
     allow setuptools parse the version without actually importing the module.
+-   Make this compatible package only available for `python=3.7`.
 
 Version 3.1.0
 -------------
